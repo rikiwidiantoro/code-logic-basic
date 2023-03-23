@@ -20,8 +20,8 @@ function removeDuplication(input) {
   }
 
   // mengembalikan nilai dari arrayBaru[]
-  // return arrayBaru; // untuk input array no.1 & 2
-  return arrayBaru.sort(); // untuk input array no.3
+  return arrayBaru; // untuk input array no.1 & 2
+  // return arrayBaru.sort(); // untuk input array no.3
 }
 
 const result = removeDuplication(inputArray3);
